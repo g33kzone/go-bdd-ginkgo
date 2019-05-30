@@ -68,3 +68,8 @@ func (c *Cart) TotalUnits() int {
 func (c *Cart) TotalUniqueItems() int {
 	return len(c.items)
 }
+
+// TotalUniqueItemsTemp returns the number of unique items in the cart
+func (c *Cart) TotalUniqueItemsTemp() int {
+	return len(c.items)
+}

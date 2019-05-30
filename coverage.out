@@ -1,0 +1,18 @@
+mode: set
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:16.23,17.20 1 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:17.20,19.3 1 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:23.32,25.43 2 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:25.43,28.3 2 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:28.8,31.3 2 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:35.45,37.41 2 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:37.41,38.28 1 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:38.28,40.4 1 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:40.9,43.4 2 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:48.38,51.28 3 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:54.2,54.20 1 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:51.28,53.3 1 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:58.33,61.28 3 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:64.2,64.19 1 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:61.28,63.3 1 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:68.39,70.2 1 1
+/Users/manish_warang/workspace_go_test/bdd-with-ginkgo/cart.go:73.43,75.2 1 0

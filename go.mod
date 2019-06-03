@@ -1,8 +1,9 @@
-module go-bdd-ginkgo
+module github.com/g33kzone/go-bdd-ginkgo
 
 go 1.12
 
 require (
-	github.com/onsi/ginkgo v1.8.0
-	github.com/onsi/gomega v1.5.0
+	github.com/jinzhu/gorm v1.9.8
+	github.com/onsi/ginkgo v1.7.0
+	github.com/onsi/gomega v1.4.3
 )

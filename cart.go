@@ -1,4 +1,4 @@
-package cart
+package main
 
 // Cart represents the state of a buyer's shopping cart
 type Cart struct {

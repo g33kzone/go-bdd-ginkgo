@@ -4,5 +4,5 @@ Failed to compile bdd-with-ginkgo:
 cart_test.go:9:2: local import "." in non-local package
 FAIL	go-bdd-ginkgo [setup failed]
 
-Ginkgo ran 1 suite in 498.934995ms
+Ginkgo ran 1 suite in 593.202079ms
 Test Suite Failed

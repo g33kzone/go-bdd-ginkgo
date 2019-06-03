@@ -1,4 +1,4 @@
-package cart_test
+package main_test
 
 import (
 	"testing"
@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "."
+	// . "."
 )
 
 func TestCart(t *testing.T) {

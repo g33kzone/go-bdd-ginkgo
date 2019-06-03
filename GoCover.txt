@@ -11,5 +11,5 @@ Failed to compile bdd-with-ginkgo:
 ./cart_test.go:144:12: undefined: Cart
 ./cart_test.go:172:12: undefined: Cart
 
-Ginkgo ran 1 suite in 3.004311713s
+Ginkgo ran 1 suite in 3.419269097s
 Test Suite Failed

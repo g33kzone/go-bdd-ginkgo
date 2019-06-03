@@ -1,8 +1,15 @@
 Failed to compile bdd-with-ginkgo:
 
-# go-bdd-ginkgo
-cart_test.go:9:2: local import "." in non-local package
-FAIL	go-bdd-ginkgo [setup failed]
+# github.com/g33kzone/go-bdd-ginkgo_test [github.com/g33kzone/go-bdd-ginkgo.test]
+./cart_test.go:18:11: undefined: Item
+./cart_test.go:19:11: undefined: Item
+./cart_test.go:22:11: undefined: Cart
+./cart_test.go:38:11: undefined: Cart
+./cart_test.go:62:11: undefined: Cart
+./cart_test.go:88:11: undefined: Cart
+./cart_test.go:113:11: undefined: Cart
+./cart_test.go:144:12: undefined: Cart
+./cart_test.go:172:12: undefined: Cart
 
-Ginkgo ran 1 suite in 593.202079ms
+Ginkgo ran 1 suite in 3.004311713s
 Test Suite Failed

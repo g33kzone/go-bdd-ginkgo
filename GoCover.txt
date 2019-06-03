@@ -1,13 +1,8 @@
-Running Suite: Shopping Cart Suite
-==================================
-Random Seed: [1m1559284407[0m
-Will run [1m21[0m of [1m21[0m specs
+Failed to compile bdd-with-ginkgo:
 
-[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m
-[1m[32mRan 21 of 21 Specs in 0.001 seconds[0m
-[1m[32mSUCCESS![0m -- [32m[1m21 Passed[0m | [91m[1m0 Failed[0m | [33m[1m0 Pending[0m | [36m[1m0 Skipped[0m
-PASS
-coverage: 96.2% of statements
+# go-bdd-ginkgo
+cart_test.go:9:2: local import "." in non-local package
+FAIL	go-bdd-ginkgo [setup failed]
 
-Ginkgo ran 1 suite in 1.829720578s
-Test Suite Passed
+Ginkgo ran 1 suite in 498.934995ms
+Test Suite Failed

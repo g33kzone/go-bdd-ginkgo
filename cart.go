@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // Cart represents the state of a buyer's shopping cart
 type Cart struct {
 	items map[string]Item
@@ -69,7 +71,6 @@ func (c *Cart) TotalUniqueItems() int {
 	return len(c.items)
 }
 
-// TotalUniqueItemsTemp returns the number of unique items in the cart
-func (c *Cart) TotalUniqueItemsTemp() int {
-	return len(c.items)
+func main() {
+	fmt.Println("Hello World !!")
 }

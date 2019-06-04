@@ -10,11 +10,11 @@
 
  WORKDIR /app
 
- #COPY go.mod .
- #COPY go.sum .
+ COPY go.mod .
+ COPY go.sum .
 
- RUN go mod init go-bdd-ginkgo
  RUN go mod download
+ RUN go mod init go-bdd-ginkgo
 
  RUN go test -coverprofile=coverage.out
  RUN go test -json > report.json

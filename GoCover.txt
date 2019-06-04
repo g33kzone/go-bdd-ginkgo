@@ -1,6 +1,6 @@
 Failed to compile bdd-with-ginkgo:
 
-# github.com/g33kzone/go-bdd-ginkgo_test [github.com/g33kzone/go-bdd-ginkgo.test]
+# go-bdd-ginkgo_test [go-bdd-ginkgo.test]
 ./cart_test.go:18:11: undefined: Item
 ./cart_test.go:19:11: undefined: Item
 ./cart_test.go:22:11: undefined: Cart
@@ -11,5 +11,5 @@ Failed to compile bdd-with-ginkgo:
 ./cart_test.go:144:12: undefined: Cart
 ./cart_test.go:172:12: undefined: Cart
 
-Ginkgo ran 1 suite in 2.994719295s
+Ginkgo ran 1 suite in 3.010557425s
 Test Suite Failed

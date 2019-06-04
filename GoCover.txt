@@ -1,15 +1,13 @@
-Failed to compile bdd-with-ginkgo:
+Running Suite: Shopping Cart Suite
+==================================
+Random Seed: [1m1559642530[0m
+Will run [1m21[0m of [1m21[0m specs
 
-# go-bdd-ginkgo_test [go-bdd-ginkgo.test]
-./cart_test.go:18:11: undefined: Item
-./cart_test.go:19:11: undefined: Item
-./cart_test.go:22:11: undefined: Cart
-./cart_test.go:38:11: undefined: Cart
-./cart_test.go:62:11: undefined: Cart
-./cart_test.go:88:11: undefined: Cart
-./cart_test.go:113:11: undefined: Cart
-./cart_test.go:144:12: undefined: Cart
-./cart_test.go:172:12: undefined: Cart
+[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m
+[1m[32mRan 21 of 21 Specs in 0.001 seconds[0m
+[1m[32mSUCCESS![0m -- [32m[1m21 Passed[0m | [91m[1m0 Failed[0m | [33m[1m0 Pending[0m | [36m[1m0 Skipped[0m
+PASS
+coverage: 56.8% of statements
 
-Ginkgo ran 1 suite in 3.010557425s
-Test Suite Failed
+Ginkgo ran 1 suite in 1.507333063s
+Test Suite Passed

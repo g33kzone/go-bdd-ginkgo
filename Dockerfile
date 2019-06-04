@@ -19,6 +19,7 @@
  COPY coverage.out .
  COPY report.json .
  
+ RUN go mod init go-bdd-ginkgo
  RUN go mod download
 
  COPY . .

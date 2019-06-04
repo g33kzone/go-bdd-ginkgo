@@ -1,13 +1,8 @@
-Running Suite: Shopping Cart Suite
-==================================
-Random Seed: [1m1559649732[0m
-Will run [1m21[0m of [1m21[0m specs
+Failed to compile bdd-with-ginkgo:
 
-[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m
-[1m[32mRan 21 of 21 Specs in 0.001 seconds[0m
-[1m[32mSUCCESS![0m -- [32m[1m21 Passed[0m | [91m[1m0 Failed[0m | [33m[1m0 Pending[0m | [36m[1m0 Skipped[0m
-PASS
-coverage: 56.8% of statements
+# github.com/g33kzone/go-bdd-ginkgo
+cart_test.go:6:2: unknown import path "go-bdd-ginkgo": cannot find module providing package go-bdd-ginkgo
+FAIL	github.com/g33kzone/go-bdd-ginkgo [setup failed]
 
-Ginkgo ran 1 suite in 1.752319877s
-Test Suite Passed
+Ginkgo ran 1 suite in 1.521422382s
+Test Suite Failed

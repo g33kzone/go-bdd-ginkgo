@@ -1,8 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/go'
-  args: ['install', '.']
-  env: ['PROJECT_ROOT=go-bdd-ginkgo']
-- name: 'gcr.io/cloud-builders/go'
   args: ['test', 'go-bdd-ginkgo']
   env: ['PROJECT_ROOT=go-bdd-ginkgo']
 - name: 'gcr.io/cloud-builders/docker'

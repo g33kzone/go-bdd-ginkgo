@@ -14,13 +14,6 @@
  COPY go.sum .
 
  RUN go mod download
- RUN go mod init
-
- RUN go test -coverprofile=coverage.out
- RUN go test -json > report.json
-
- COPY coverage.out .
- COPY report.json .
 
  COPY . .
 

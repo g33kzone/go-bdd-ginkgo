@@ -1,6 +1,6 @@
 Running Suite: Shopping Cart Suite
 ==================================
-Random Seed: [1m1559642530[0m
+Random Seed: [1m1559642747[0m
 Will run [1m21[0m of [1m21[0m specs
 
 [32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m[32m•[0m
@@ -9,5 +9,5 @@ Will run [1m21[0m of [1m21[0m specs
 PASS
 coverage: 56.8% of statements
 
-Ginkgo ran 1 suite in 1.507333063s
+Ginkgo ran 1 suite in 1.690378568s
 Test Suite Passed

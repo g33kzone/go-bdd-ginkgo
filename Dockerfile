@@ -13,13 +13,6 @@
  COPY go.mod .
  COPY go.sum .
  
- RUN go test -coverprofile=coverage.out
- RUN go test -json > report.json
-
- COPY coverage.out .
- COPY report.json .
- 
- RUN go mod init go-bdd-ginkgo
  RUN go mod download
 
  COPY . .

@@ -1,5 +1,11 @@
 steps:
-- name: gcr.io/cloud-builders/docker
+- name: 'gcr.io/cloud-builders/go'
+  args: ['install', '.']
+  env: ['PROJECT_ROOT=go-bdd-ginkgo']
+- name: 'gcr.io/cloud-builders/go'
+  args: ['test', 'go-bdd-ginkgo']
+  env: ['PROJECT_ROOT=go-bdd-ginkgo']
+- name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'eu.gcr.io/$PROJECT_ID/$REPO_NAME:$SHORT_SHA','.']
 - name: 'gcr.io/$PROJECT_ID/sonar-scanner:latest'
   args:
